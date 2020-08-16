@@ -1,9 +1,23 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background-color: #282c34;
-  display: 'flex';
-  justify-content: center;
+  background-color: hsla(220, 13%, 18%, 1);
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  color: gray;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: hsla(220, 13%, 18%, 1),
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
